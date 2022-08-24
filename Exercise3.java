@@ -4,14 +4,14 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        int[] intArray = {24, 2, 0, 34, 12, 110, 120,121,301};
-        int maxNum = intArray[0];
+        int[] intarray = {24, 2, 0, 34, 12, 110, 120,121,301};
+        int maxnum = intarray[0];
 
-        for (int j : intArray) {
+        for (int j : intarray) {
             if (j % 2!=0)
-                maxNum = j;
+                maxnum = j;
         }
-        System.out.println("Maximum number = " + maxNum);
+        System.out.println("Maximum number = " + maxnum);
     }
 
         }
